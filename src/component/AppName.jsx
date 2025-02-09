@@ -1,7 +1,10 @@
-import AppName from './component/AppName';
+
 
 function AppName() {
-    return <h1>TOdatjijflksjld</h1>
+    return (<div className="app-name">
+    <h1>Todo App</h1>
+    </div>);
+   
 }
 
 export default AppName;
